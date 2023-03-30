@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@300;400;500;600;700&display=swap');
+
+
+body {
+  background-color: #f8f8f6;
+  font-family: "Alkatra";
+}
+
+.img_circle {
+  border-radius: 50%;
+  width: 265px;
+  box-shadow: 5px 5px 5px black;
+  margin-left: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+a {
+  color: rgb(25, 25, 87);
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white li {
+  display: inline-block;
+  margin: 20px 20px;
+  padding-left: 50px;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px grey;
+  color: rgb (162 162 162 162);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
